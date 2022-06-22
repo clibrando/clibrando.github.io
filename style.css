@@ -4,18 +4,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Source Serif Pro", serif;
+  font-family: "Ubuntu", serif;
 }
 p {
   font-family: "Ubuntu", sans-serif;
 }
 body {
   min-height: 100vh;
-  background: linear-gradient(45deg, #fff, #82c9f8);
+  background: linear-gradient(45deg, #fff, #82c9f8) fixed;
 }
 body.dark {
   /* background: linear-gradient(45deg, #4e65ff, #92effd); */
-  background: linear-gradient(45deg, #a6c1ee, #314cff);
+  background: linear-gradient(45deg, #19325c, #090d31) fixed;
   color: white;
 }
 .parallax-container {
@@ -179,6 +179,11 @@ body.dark {
   box-shadow: 0 62.5px 125px -25px rgba(50, 50, 73, 0.5),
     0 37.5px 75px -37.5px rgba(0, 0, 0, 0.6);
 }
+
+.introduce-title{
+  color: rgb(46, 142, 231);
+}
+
 .contact-me button:hover {
   /* background: rgb(59 130 246); */
   color: rgb(46, 142, 231);
